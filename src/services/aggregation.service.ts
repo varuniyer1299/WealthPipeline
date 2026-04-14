@@ -1,4 +1,4 @@
-import { fetchBankData, fetchCryptoData, fetchStockData } from '../providers/mockproviders';
+import { fetchBankData, fetchCryptoData, fetchStockData } from '../providers/mockProviders';
 import {
   financialAssetSchema as AssetSchema,
   type FinancialAsset,
