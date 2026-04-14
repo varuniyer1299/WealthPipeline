@@ -1,0 +1,30 @@
+{
+  "name": "wealthpipeline",
+  "version": "1.0.0",
+  "description": "Financial data aggregator service built with Node.js and TypeScript.",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/app.js"
+  },
+  "keywords": [
+    "finance",
+    "aggregator",
+    "typescript",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
